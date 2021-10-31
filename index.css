@@ -1,0 +1,165 @@
+.content {
+  margin: 0 auto;
+  width: 35%;
+  background-color: #222;
+  height: 39rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav p {
+  transform: rotate(90deg);
+}
+
+.left,
+.middle {
+  margin: 1.3rem;
+}
+
+.left{
+  margin-left: 5rem;
+  color: rgb(56, 177, 247);
+}
+
+.middle {
+  color: #fff;
+}
+
+.right p {
+  color: rgb(56, 177, 247);
+  font-size: 2rem;
+  margin-top: 0.7rem;
+}
+
+.urushinge,
+.uturongo,
+.frequence {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.frequence h1 {
+  margin: 0.6rem auto 0;
+  font-size: 3.4rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.frequence span {
+  font-size: 16px;
+}
+
+.frequence p {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.agashinge {
+  color: #555;
+  margin: 3rem auto 0;
+  font-size: 2rem;
+}
+
+.agashinge span {
+  font-size: 3rem;
+  color: #555;
+}
+
+.akanyuzi {
+  color: rgb(216, 34, 34);
+  margin: -4.7rem auto 0;
+  font-size: 4rem;
+}
+
+.border {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2.7rem;
+  color: #fff;
+}
+
+.favoris p {
+  margin-left: 3rem;
+  color: #fff;
+}
+
+.carre {
+  width: 5rem;
+  height: 3rem;
+  background-color: #777;
+  margin: -0.9rem auto 0;
+  border-radius: 5px;
+}
+
+.point {
+  background-color: rgb(13, 153, 235);
+  margin: -2rem auto;
+  border-radius: 50%;
+  z-index: 1;
+  width: 1rem;
+  height: 1rem;
+}
+
+#antenne {
+  height: 40px;
+  width: 5px;
+  background-color: #777;
+  transform: rotate(65deg);
+  margin:  0 auto;
+}
+
+#ligne1,
+#ligne2 {
+  background-color: #333;
+  z-index: 1;
+  margin-left:  15rem;
+}
+
+#ligne1 {
+  height: 14px;
+  width: 5px;
+  transform: rotate(89deg);
+  margin-top:  0.8rem;
+
+}
+
+#ligne2 {
+  height: 14px;
+  width: 5px;
+  transform: rotate(89deg);
+  margin-top: -1.2rem;
+}
+
+.chaine {
+  margin: 2rem 9rem;
+  color: #eee;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.7rem;
+  margin-top: -1rem;
+}
+
+#foot-left,
+#foot-right,
+#foot-midde {
+  background-color: #444;
+  padding: 8px 14px;
+  border-radius: 50%;
+  font-weight: bolder;
+  color: #eee;
+}
+
+#foot-midde {
+  color: rgb(10, 152, 235);
+}
